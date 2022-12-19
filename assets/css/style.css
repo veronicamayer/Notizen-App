@@ -1,0 +1,57 @@
+@font-face {
+    font-family: PoppinsSemibold;
+    src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: PoppinsLight;
+    src: url("../fonts/Poppins-Light.ttf");
+}
+
+
+/* font families */
+/* 
+font-family: PoppinsSemibold;
+font-family: PoppinsLight;
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 50px;
+    height: 100vh;
+    background-color: #6A90F3;
+}
+
+section {
+    box-shadow: 0px 0px 19px 0px rgba(65,65,65,0.9);
+    margin: 15px;
+    display: inline-block;
+    width: 400px;
+    padding: 25px;
+    background-color: white;
+    vertical-align:top;
+    border-radius: 5px;
+}
+
+.heading {
+    font-family: PoppinsSemibold;
+    font-size: 19px;
+}
+
+.text {
+    font-family: PoppinsLight;
+    padding: 20px 0;
+    color: #525252;
+    font-size: 14px;
+}
+
+.date {
+    font-family: PoppinsLight;
+    color: gray;
+}
