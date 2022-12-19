@@ -25,11 +25,11 @@ font-family: PoppinsLight;
 main {
     padding: 50px;
     height: 100vh;
-    background-color: #6A90F3;
+    background-color: #D7EDF9;
 }
 
 section {
-    box-shadow: 0px 0px 19px 0px rgba(65,65,65,0.9);
+    box-shadow: 0px 0px 19px 0px rgba(159, 158, 158, 0.9);
     margin: 15px;
     display: inline-block;
     width: 400px;
