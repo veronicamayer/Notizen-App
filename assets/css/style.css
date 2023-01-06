@@ -8,13 +8,10 @@
     src: url("../fonts/Poppins-Light.ttf");
 }
 
-
-/* font families */
-/* 
-font-family: PoppinsSemibold;
-font-family: PoppinsLight;
-*/
-
+@font-face {
+    font-family: Anybody;
+    src: url("../fonts/Anybody-VariableFont_wdth\,wght.ttf");
+}
 
 * {
     margin: 0;
@@ -22,21 +19,35 @@ font-family: PoppinsLight;
     box-sizing: border-box;
 }
 
-main {
+body {
     padding: 50px;
-    height: 100vh;
     background-color: #D7EDF9;
 }
 
+header {
+    text-align: center;
+    padding-bottom: 50px;
+    color: rgb(0, 0, 0);
+    font-family: Anybody;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 section {
-    box-shadow: 0px 0px 19px 0px rgba(159, 158, 158, 0.9);
+    box-shadow: 0px 0px 10px 0px rgba(207, 205, 205, 0.9);
     margin: 15px;
     display: inline-block;
     width: 400px;
+    min-height: 30vh;
     padding: 25px;
     background-color: white;
     vertical-align:top;
     border-radius: 5px;
+    position: relative;
 }
 
 .heading {
@@ -54,4 +65,7 @@ section {
 .date {
     font-family: PoppinsLight;
     color: gray;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 20px;
 }
