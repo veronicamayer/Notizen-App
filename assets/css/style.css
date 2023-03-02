@@ -24,12 +24,7 @@ body {
     background-color: #D7EDF9;
 }
 
-header {
-    text-align: center;
-    padding-bottom: 50px;
-    color: rgb(0, 0, 0);
-    font-family: Anybody;
-}
+
 
 main {
     display: flex;
@@ -48,6 +43,13 @@ section {
     vertical-align:top;
     border-radius: 5px;
     position: relative;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 50px;
+    color: rgb(0, 0, 0);
+    font-family: Anybody;
 }
 
 .heading {
